@@ -25,7 +25,6 @@ This tutorial covers the requirements and installation process for the open-sour
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/Iu8EC4s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 Create a resource group in Microsoft Azure named osTicket. Then create a virtual machine within this resource group. Use a Windows 10 Pro image for the VM, ensuring it has at least 2 vCPUs. The VM will serve as a space for practice.
