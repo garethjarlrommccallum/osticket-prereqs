@@ -27,10 +27,10 @@ To successfully set up all prerequisites and install osTicket from scratch on a 
 
 <h2>Installation Steps</h2>
 
-<p>
-</p>
-<p>
-Create a resource group in Microsoft Azure named osTicket. Then create a virtual machine within this resource group. Use a Windows 10 Pro image for the VM, ensuring it has at least 2 vCPUs. The VM will serve as a space for practice.
+- Create a resource group in Microsoft Azure named osTicket. 
+- Create a virtual machine within this resource group. 
+- Setup the Virtual Machine, ensuring it has at least 2 vCPUs.
+- Allow Azure to create Virtual Network
 </p>
 <br />
 
