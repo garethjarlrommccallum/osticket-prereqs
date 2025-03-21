@@ -23,7 +23,8 @@ To successfully set up all prerequisites and install osTicket from scratch on a 
 
 - Azure Virtual Machine 
 - osTicket Installation files
-- Heidi SQL
+  ![image](https://github.com/user-attachments/assets/3dea1f52-d2df-49e4-8535-a67379360481)
+
 
 <h2>Installation Steps</h2>
 
@@ -35,10 +36,14 @@ To successfully set up all prerequisites and install osTicket from scratch on a 
 <br />
 
 <p>
-<img src="https://i.imgur.com/H2B3g7x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  ![image](https://github.com/user-attachments/assets/ad2d8571-e072-4853-8eb8-2d8913fcf459)
+
 </p>
+
 <p>
-Next, access the VM via Remote Desktop Protocol (RDP). Copy the Public IPv4 address listed in the Azure portal for the VM and use it to establish the RDP connection.
+Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enable IIS by opening the Control Panel. 
+  Go into Control panel->  Programs-> Turn Windows features on or off->  enable Internet Information Services -> world wide web -> Application Development features -> check CGI -> click ok and close out.
 </p>
 <br />
 
@@ -46,7 +51,7 @@ Next, access the VM via Remote Desktop Protocol (RDP). Copy the Public IPv4 addr
 <img src="https://i.imgur.com/2VqhhFo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once connected to the VM, enable IIS by opening the Control Panel and navigating to Turn Windows Features On or Off. Scroll down to locate Internet Information Services (IIS) and select the checkbox to activate it.
+
 </p>
 <br />
 
