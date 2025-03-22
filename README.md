@@ -63,13 +63,17 @@ Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enabl
 <br />
 
 <p>
-  
-  Install Prerequisite Programs
 
-5. Install PHP Manager
-6. Install Rewrite
-7. Install VC Redist
-8. Install PHP:
+  
+  <h2>Install Prerequisite Programs</h2>
+
+  ![image](https://github.com/user-attachments/assets/b6631374-243b-4547-b015-0e6613eead23)
+
+
+1. Install PHP Manager
+2. Install Rewrite
+3. Install VC Redist
+4. Install PHP:
    - Create the directory C:\PHP
    - Extract PHP files into C:\PHP directory
    - Register PHP from within IIS
@@ -96,33 +100,33 @@ Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enabl
       - Got to Sites -> Default -> osTicket-> "Browse *80"
 
 12. Enable Features and assign permissions
-    1. Enable Extensions in PHP Manager:
+    - Enable Extensions in PHP Manager:
        - Enable: php_imap.dll
        - Enable: php_intl.dll
        - Enable: php_opcache.dll
-    2. Rename ost-config.php:
+    - Rename ost-config.php:
        - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
        - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-    3. Assign Permissions: ost-config.php
+    - Assign Permissions: ost-config.php
        - Disable inheritance -> Remove All
        - New Permissions -> Everyone -> All
       
 13. Complete Installation by registering email and mySQL database
-    1. Continue setting up osTicket in the browser
-    2. Name Helpdesk
-    3. Default email (receives email from customers
-    4. MySQL Database: osTicket
-    5. MySQL Username: root
-    6. MySQL Password: (secret password)
-    7. Click "Install Now"
+    - Continue setting up osTicket in the browser
+    - Name Helpdesk
+    - Default email (receives email from customers
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: (secret password)
+    - Click "Install Now"
    
 14. Confirm osTicket can be reached by users on LocalHost
-    1. Test link for agents and end-users:
+    - Test link for agents and end-users:
        - Agents URL: http://localhost/osTicket/scp/login.php
        - End Users URL: http://localhost/osTicket/
       
 15. Clean up files that pose a security risk
-    1. Delete: C:\inetpub\wwwroot\osTicket\setup
-    2. Set Permissions to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+    - Delete: C:\inetpub\wwwroot\osTicket\setup
+    - Set Permissions to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
   
      
