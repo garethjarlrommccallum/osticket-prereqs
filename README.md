@@ -42,8 +42,23 @@ To successfully set up all prerequisites and install osTicket from scratch on a 
 </p>
 
 <p>
-Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enable IIS by opening the Control Panel. 
-  Go into Control panel->  Programs-> Turn Windows features on or off->  enable Internet Information Services -> world wide web -> Application Development features -> check CGI -> click ok and close out.
+Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enable Internet Information Services (IIS) by: 
+  
+Opening the Control Panel.
+
+Click on Programs.
+
+Select Turn Windows features on or off.
+
+Locate and enable Internet Information Services (IIS) by:
+
+Expanding World Wide Web Services.
+
+Navigating to Application Development Features.
+
+Checking CGI.
+
+Click OK to apply changes and close the window.
 </p>
 <br />
 
