@@ -48,7 +48,9 @@ Access the VM via Remote Desktop Protocol (RDP). Once connected to the VM, enabl
 <br />
 
 <p>
-<img src="https://i.imgur.com/2VqhhFo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  ![image](https://github.com/user-attachments/assets/3d3b945c-3df7-45b6-8b6f-24e0eaf8d2c6)
+
 </p>
 <p>
 
